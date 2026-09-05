@@ -1,0 +1,15 @@
+{
+  "required": [
+    "master",
+    "cue-sheet",
+    "captions"
+  ],
+  "items": [
+    "master",
+    "cue-sheet",
+    "captions"
+  ],
+  "checksums": true,
+  "approvals": true,
+  "receipt": true
+}

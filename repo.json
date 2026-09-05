@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "approval-master-handoff-tools",
+  "state": "LOCAL_READY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "asset_id": "shar-pe400-w09-179",
+      "slug": "client-approval-evidence-register",
+      "title": "Client Approval Evidence Register",
+      "title_ru": "Реестр доказательств согласования клиента",
+      "family": "approval_handoff",
+      "purpose": "Checks approval decisions for scope, owner, timestamp and evidence.",
+      "purpose_ru": "Проверяет решения по объёму, ответственному, времени и доказательству.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    },
+    {
+      "asset_id": "shar-pe400-w09-180",
+      "slug": "final-master-handoff-validator",
+      "title": "Final Master Handoff Validator",
+      "title_ru": "Валидатор передачи финального мастера",
+      "family": "approval_handoff",
+      "purpose": "Checks masters, documents, checksums, approvals and receipt.",
+      "purpose_ru": "Проверяет мастеры, документы, контрольные суммы, согласования и получение.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    }
+  ]
+}

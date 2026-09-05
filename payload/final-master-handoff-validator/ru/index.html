@@ -1,0 +1,15 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Валидатор передачи финального мастера · SHAR Production</title><meta name="description" content="Проверяет мастеры, документы, контрольные суммы, согласования и получение."><meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="../styles.css"><script type="module" src="../app.mjs"></script></head><body data-slug="final-master-handoff-validator"><nav><a class="brand" href="https://sharprod.com/"><b>SHAR</b> Production</a><a href="../en/">EN</a></nav><main><h1>Валидатор передачи финального мастера</h1><p class="lead">Проверяет мастеры, документы, контрольные суммы, согласования и получение.</p><p class="note">Обработка выполняется локально в браузере. Используйте неконфиденциальные плановые данные.</p><div class="grid"><section><textarea id="input" aria-label="JSON input">{
+  "required": [
+    "master",
+    "cue-sheet",
+    "captions"
+  ],
+  "items": [
+    "master",
+    "cue-sheet",
+    "captions"
+  ],
+  "checksums": true,
+  "approvals": true,
+  "receipt": true
+}</textarea><button id="run">Проверить</button></section><pre id="output" aria-live="polite"></pre></div><a class="cta" href="https://sharprod.com/brief/?utm_source=shar_public_tools&utm_medium=tool&utm_campaign=final-master-handoff-validator">Обсудить production-бриф ↗</a></main></body></html>

@@ -1,0 +1,12 @@
+{
+  "decisions": [
+    {
+      "id": "A1",
+      "scope": "master",
+      "owner": "Client",
+      "timestamp": "2026-09-06T10:00:00Z",
+      "evidence": "email-1",
+      "approved": true
+    }
+  ]
+}
